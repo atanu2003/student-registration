@@ -1,0 +1,81 @@
+body{
+    background: linear-gradient(to right, #54b7e8, #4bf1cd, #7a9bf0); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+   color:rgb(244, 247, 241);
+}
+table{
+    width: 80%;
+    margin: 40px auto;
+    background: rgb(20, 16, 16);
+    color: aqua;
+}
+p{
+    font-size: 20px;
+    font-style: italic;
+    color: white;
+}
+
+table.list{
+    text-align: center;
+    width: 100%;
+}
+
+td{
+    border: 1px solid red;
+    text-align: left;
+    padding: 8px 15px;
+}
+
+tr:nth-child(even), table.list thread> tr{
+    background-color: rgb(237, 241, 245);
+    color: black;
+}
+
+input[type="text"],input[type="number"],input[type="email"]{
+    width:91%;
+    padding:12px 20px;
+    margin:8px 0;
+    display: inline-block;
+    border: 1px solid red;
+    border-radius: 4px;
+}
+
+input[type="submit"]{
+    background: aqua;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover{
+    background: aqua;
+}
+
+
+button{
+    background: rgb(41, 153, 250);
+    color: aqua;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid blueviolet;
+}
+
+button:hover{
+    background:red ;
+}

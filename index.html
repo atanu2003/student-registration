@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="atanu">
+    <link rel="stylesheet" href="index.css">
+    <title>Registration</title>
+</head>
+
+<body>
+    <h1>Students Registration</h1>
+    <p>It is an acronym from the world of computer programming and refers to the four functions considered necessary to implement a persistent storage application: create, read, update and delete.</p>
+    <table>
+      <tr>
+        <td>
+          <form autocomplete="off" onsubmit="onFormSubmit()">
+            <div>
+              <label for="StudentsName">Students Name</label>
+              <input
+                type="text"
+                name="StudentsName"
+                id="StudentsName"
+                placeholder="Enter your Name" required
+              />
+            </div>
+            <div>
+              <label for="StudentsId">Students Id</label>
+              <input
+                type="number"
+                name="studentsid"
+                id="StudentsId"
+                placeholder="Enter your Id"required
+              />
+            </div>
+            <div>
+              <label for="email">Enter Your Email</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter your Email"required
+              />
+            </div>
+            <div>
+              <label for="contactno"> Contact No</label>
+              <input
+                type="number"
+                name="contactno"
+                id="contactno"
+                placeholder="Enter your Contact No"required
+              />
+            </div>
+            <div class="form_action--button">
+              <input type="submit" value="Submit" />
+            
+            </div>
+          </form>
+          <td>
+            <table class="list" id="StudentList">
+                <thead>
+                    <tr>
+                        <th>Students Name</th>
+                        <th>Students Id</th>
+                        <th>Email</th>
+                        <th>Contact No</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+          </td>
+        </td>
+      </tr>
+    </table>
+</body>
+<script src="index.js"></script>
+
+</html>
